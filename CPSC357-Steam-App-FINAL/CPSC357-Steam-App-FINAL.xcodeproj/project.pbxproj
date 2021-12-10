@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2886C6C48ECE06A185433587 /* Pods_CPSC357_Steam_App_FINAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18C919A7D75F1994BB5E62A /* Pods_CPSC357_Steam_App_FINAL.framework */; };
+		AA7D31502640977A001A3597 /* GamesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D314F2640977A001A3597 /* GamesDataModel.swift */; };
+		AA7D315326409A40001A3597 /* GameRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D315226409A40001A3597 /* GameRequest.swift */; };
+		AAA82188264DECB70054F728 /* StatCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA82187264DECB60054F728 /* StatCalc.swift */; };
+		AAA8218A264F3BD90054F728 /* StorageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA82189264F3BD90054F728 /* StorageHandler.swift */; };
+		B23FC1E126577E14006966A4 /* webkinz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23FC1D926577E14006966A4 /* webkinz.jpg */; };
+		B23FC1E226577E14006966A4 /* elderscrollsonline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23FC1DA26577E14006966A4 /* elderscrollsonline.jpg */; };
+		B23FC1E326577E14006966A4 /* portal2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23FC1DB26577E14006966A4 /* portal2.jpg */; };
+		B23FC1E426577E14006966A4 /* portal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23FC1DC26577E14006966A4 /* portal.jpg */; };
+		B23FC1E526577E14006966A4 /* oblivion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23FC1DD26577E14006966A4 /* oblivion.jpg */; };
+		B23FC1E626577E14006966A4 /* masseffect2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23FC1DE26577E14006966A4 /* masseffect2.jpg */; };
+		B23FC1E726577E14006966A4 /* morrowind.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23FC1DF26577E14006966A4 /* morrowind.jpg */; };
+		B23FC1E826577E14006966A4 /* masseffect.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23FC1E026577E14006966A4 /* masseffect.jpg */; };
+		B244467F263B425A0009EA7D /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244467E263B425A0009EA7D /* LibraryViewController.swift */; };
+		B250CDB52656EAAA00313AAF /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B250CDB42656EAAA00313AAF /* AddGameView.swift */; };
+		B26F0D922637622000D3ECF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F0D912637622000D3ECF6 /* AppDelegate.swift */; };
+		B26F0D942637622100D3ECF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F0D932637622100D3ECF6 /* SceneDelegate.swift */; };
+		B26F0D962637622100D3ECF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F0D952637622100D3ECF6 /* ViewController.swift */; };
+		B26F0D992637622100D3ECF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26F0D972637622100D3ECF6 /* Main.storyboard */; };
+		B26F0D9B2637622200D3ECF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F0D9A2637622200D3ECF6 /* Assets.xcassets */; };
+		B26F0D9E2637622200D3ECF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26F0D9C2637622200D3ECF6 /* LaunchScreen.storyboard */; };
+		B2737CCB2657ED1A00DC7FB3 /* steam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2737CCA2657ED1A00DC7FB3 /* steam.jpg */; };
+		B29353BB263B35A900541627 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29353BA263B35A900541627 /* CustomCollectionCell.swift */; };
+		B29C4370263B827E00D2C053 /* CustomLibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29C436F263B827E00D2C053 /* CustomLibraryCell.swift */; };
+		B29C4373263B8BDC00D2C053 /* GameInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29C4372263B8BDC00D2C053 /* GameInfoView.swift */; };
+		B29C4376263B8FCE00D2C053 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29C4375263B8FCE00D2C053 /* SettingsView.swift */; };
+		B2ECAE632639C9C60003A0C0 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ECAE622639C9C60003A0C0 /* CustomCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AFD201990C79CD0FD79A8BB /* Pods-CPSC357-Steam-App-FINAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPSC357-Steam-App-FINAL.debug.xcconfig"; path = "Target Support Files/Pods-CPSC357-Steam-App-FINAL/Pods-CPSC357-Steam-App-FINAL.debug.xcconfig"; sourceTree = "<group>"; };
+		AA7D314F2640977A001A3597 /* GamesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesDataModel.swift; sourceTree = "<group>"; };
+		AA7D315226409A40001A3597 /* GameRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRequest.swift; sourceTree = "<group>"; };
+		AAA82187264DECB60054F728 /* StatCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCalc.swift; sourceTree = "<group>"; };
+		AAA82189264F3BD90054F728 /* StorageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageHandler.swift; sourceTree = "<group>"; };
+		B23FC1D926577E14006966A4 /* webkinz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = webkinz.jpg; sourceTree = "<group>"; };
+		B23FC1DA26577E14006966A4 /* elderscrollsonline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elderscrollsonline.jpg; sourceTree = "<group>"; };
+		B23FC1DB26577E14006966A4 /* portal2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portal2.jpg; sourceTree = "<group>"; };
+		B23FC1DC26577E14006966A4 /* portal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portal.jpg; sourceTree = "<group>"; };
+		B23FC1DD26577E14006966A4 /* oblivion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oblivion.jpg; sourceTree = "<group>"; };
+		B23FC1DE26577E14006966A4 /* masseffect2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = masseffect2.jpg; sourceTree = "<group>"; };
+		B23FC1DF26577E14006966A4 /* morrowind.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morrowind.jpg; sourceTree = "<group>"; };
+		B23FC1E026577E14006966A4 /* masseffect.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = masseffect.jpg; sourceTree = "<group>"; };
+		B244467E263B425A0009EA7D /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		B250CDB42656EAAA00313AAF /* AddGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
+		B26F0D8E2637622000D3ECF6 /* CPSC357-Steam-App-FINAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPSC357-Steam-App-FINAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26F0D912637622000D3ECF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B26F0D932637622100D3ECF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B26F0D952637622100D3ECF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B26F0D982637622100D3ECF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B26F0D9A2637622200D3ECF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F0D9D2637622200D3ECF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B26F0D9F2637622200D3ECF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2737CCA2657ED1A00DC7FB3 /* steam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steam.jpg; sourceTree = "<group>"; };
+		B29353BA263B35A900541627 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		B29C436F263B827E00D2C053 /* CustomLibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLibraryCell.swift; sourceTree = "<group>"; };
+		B29C4372263B8BDC00D2C053 /* GameInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfoView.swift; sourceTree = "<group>"; };
+		B29C4375263B8FCE00D2C053 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B2ECAE622639C9C60003A0C0 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F18C919A7D75F1994BB5E62A /* Pods_CPSC357_Steam_App_FINAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPSC357_Steam_App_FINAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3F3B8B8010736F866AFD5F /* Pods-CPSC357-Steam-App-FINAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPSC357-Steam-App-FINAL.release.xcconfig"; path = "Target Support Files/Pods-CPSC357-Steam-App-FINAL/Pods-CPSC357-Steam-App-FINAL.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26F0D8B2637622000D3ECF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2886C6C48ECE06A185433587 /* Pods_CPSC357_Steam_App_FINAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23FC1D826577E14006966A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B23FC1D926577E14006966A4 /* webkinz.jpg */,
+				B23FC1DA26577E14006966A4 /* elderscrollsonline.jpg */,
+				B23FC1DB26577E14006966A4 /* portal2.jpg */,
+				B23FC1DC26577E14006966A4 /* portal.jpg */,
+				B23FC1DD26577E14006966A4 /* oblivion.jpg */,
+				B2737CCA2657ED1A00DC7FB3 /* steam.jpg */,
+				B23FC1DE26577E14006966A4 /* masseffect2.jpg */,
+				B23FC1DF26577E14006966A4 /* morrowind.jpg */,
+				B23FC1E026577E14006966A4 /* masseffect.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B244467D263B41DC0009EA7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B26F0D952637622100D3ECF6 /* ViewController.swift */,
+				B250CDB42656EAAA00313AAF /* AddGameView.swift */,
+				B244467E263B425A0009EA7D /* LibraryViewController.swift */,
+				B29C4372263B8BDC00D2C053 /* GameInfoView.swift */,
+				B29C4375263B8FCE00D2C053 /* SettingsView.swift */,
+				AA7D315226409A40001A3597 /* GameRequest.swift */,
+				B2ECAE622639C9C60003A0C0 /* CustomCell.swift */,
+				AA7D314F2640977A001A3597 /* GamesDataModel.swift */,
+				B29C436F263B827E00D2C053 /* CustomLibraryCell.swift */,
+				B29353BA263B35A900541627 /* CustomCollectionCell.swift */,
+				AAA82187264DECB60054F728 /* StatCalc.swift */,
+				AAA82189264F3BD90054F728 /* StorageHandler.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B26F0D852637622000D3ECF6 = {
+			isa = PBXGroup;
+			children = (
+				B23FC1D826577E14006966A4 /* Resources */,
+				B26F0D902637622000D3ECF6 /* CPSC357-Steam-App-FINAL */,
+				B26F0D8F2637622000D3ECF6 /* Products */,
+				FB9E229A9DD397D0D0A58BA3 /* Pods */,
+				B39D3D9FC2229A3676D31A77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B26F0D8F2637622000D3ECF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26F0D8E2637622000D3ECF6 /* CPSC357-Steam-App-FINAL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26F0D902637622000D3ECF6 /* CPSC357-Steam-App-FINAL */ = {
+			isa = PBXGroup;
+			children = (
+				B244467D263B41DC0009EA7D /* Views */,
+				B26F0D912637622000D3ECF6 /* AppDelegate.swift */,
+				B26F0D932637622100D3ECF6 /* SceneDelegate.swift */,
+				B26F0D972637622100D3ECF6 /* Main.storyboard */,
+				B26F0D9A2637622200D3ECF6 /* Assets.xcassets */,
+				B26F0D9C2637622200D3ECF6 /* LaunchScreen.storyboard */,
+				B26F0D9F2637622200D3ECF6 /* Info.plist */,
+			);
+			path = "CPSC357-Steam-App-FINAL";
+			sourceTree = "<group>";
+		};
+		B39D3D9FC2229A3676D31A77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F18C919A7D75F1994BB5E62A /* Pods_CPSC357_Steam_App_FINAL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB9E229A9DD397D0D0A58BA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AFD201990C79CD0FD79A8BB /* Pods-CPSC357-Steam-App-FINAL.debug.xcconfig */,
+				FC3F3B8B8010736F866AFD5F /* Pods-CPSC357-Steam-App-FINAL.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26F0D8D2637622000D3ECF6 /* CPSC357-Steam-App-FINAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26F0DA22637622200D3ECF6 /* Build configuration list for PBXNativeTarget "CPSC357-Steam-App-FINAL" */;
+			buildPhases = (
+				234C335D9821F62618A94D5C /* [CP] Check Pods Manifest.lock */,
+				B26F0D8A2637622000D3ECF6 /* Sources */,
+				B26F0D8B2637622000D3ECF6 /* Frameworks */,
+				B26F0D8C2637622000D3ECF6 /* Resources */,
+				06104C7DECF00E4BA873476D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPSC357-Steam-App-FINAL";
+			productName = "CPSC357-Steam-App-FINAL";
+			productReference = B26F0D8E2637622000D3ECF6 /* CPSC357-Steam-App-FINAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26F0D862637622000D3ECF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B26F0D8D2637622000D3ECF6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B26F0D892637622000D3ECF6 /* Build configuration list for PBXProject "CPSC357-Steam-App-FINAL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B26F0D852637622000D3ECF6;
+			productRefGroup = B26F0D8F2637622000D3ECF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26F0D8D2637622000D3ECF6 /* CPSC357-Steam-App-FINAL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26F0D8C2637622000D3ECF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23FC1E626577E14006966A4 /* masseffect2.jpg in Resources */,
+				B23FC1E426577E14006966A4 /* portal.jpg in Resources */,
+				B23FC1E826577E14006966A4 /* masseffect.jpg in Resources */,
+				B23FC1E126577E14006966A4 /* webkinz.jpg in Resources */,
+				B26F0D9E2637622200D3ECF6 /* LaunchScreen.storyboard in Resources */,
+				B23FC1E326577E14006966A4 /* portal2.jpg in Resources */,
+				B23FC1E226577E14006966A4 /* elderscrollsonline.jpg in Resources */,
+				B23FC1E526577E14006966A4 /* oblivion.jpg in Resources */,
+				B26F0D9B2637622200D3ECF6 /* Assets.xcassets in Resources */,
+				B26F0D992637622100D3ECF6 /* Main.storyboard in Resources */,
+				B2737CCB2657ED1A00DC7FB3 /* steam.jpg in Resources */,
+				B23FC1E726577E14006966A4 /* morrowind.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06104C7DECF00E4BA873476D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CPSC357-Steam-App-FINAL/Pods-CPSC357-Steam-App-FINAL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CPSC357-Steam-App-FINAL/Pods-CPSC357-Steam-App-FINAL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPSC357-Steam-App-FINAL/Pods-CPSC357-Steam-App-FINAL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		234C335D9821F62618A94D5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPSC357-Steam-App-FINAL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26F0D8A2637622000D3ECF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA82188264DECB70054F728 /* StatCalc.swift in Sources */,
+				B29C4370263B827E00D2C053 /* CustomLibraryCell.swift in Sources */,
+				B26F0D962637622100D3ECF6 /* ViewController.swift in Sources */,
+				B29353BB263B35A900541627 /* CustomCollectionCell.swift in Sources */,
+				AAA8218A264F3BD90054F728 /* StorageHandler.swift in Sources */,
+				B29C4376263B8FCE00D2C053 /* SettingsView.swift in Sources */,
+				B250CDB52656EAAA00313AAF /* AddGameView.swift in Sources */,
+				B26F0D922637622000D3ECF6 /* AppDelegate.swift in Sources */,
+				B2ECAE632639C9C60003A0C0 /* CustomCell.swift in Sources */,
+				B244467F263B425A0009EA7D /* LibraryViewController.swift in Sources */,
+				AA7D315326409A40001A3597 /* GameRequest.swift in Sources */,
+				B29C4373263B8BDC00D2C053 /* GameInfoView.swift in Sources */,
+				B26F0D942637622100D3ECF6 /* SceneDelegate.swift in Sources */,
+				AA7D31502640977A001A3597 /* GamesDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B26F0D972637622100D3ECF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26F0D982637622100D3ECF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B26F0D9C2637622200D3ECF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26F0D9D2637622200D3ECF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26F0DA02637622200D3ECF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B26F0DA12637622200D3ECF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26F0DA32637622200D3ECF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AFD201990C79CD0FD79A8BB /* Pods-CPSC357-Steam-App-FINAL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CPSC357-Steam-App-FINAL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CPSC357-Steam-App-FINAL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B26F0DA42637622200D3ECF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3F3B8B8010736F866AFD5F /* Pods-CPSC357-Steam-App-FINAL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CPSC357-Steam-App-FINAL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CPSC357-Steam-App-FINAL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26F0D892637622000D3ECF6 /* Build configuration list for PBXProject "CPSC357-Steam-App-FINAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26F0DA02637622200D3ECF6 /* Debug */,
+				B26F0DA12637622200D3ECF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26F0DA22637622200D3ECF6 /* Build configuration list for PBXNativeTarget "CPSC357-Steam-App-FINAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26F0DA32637622200D3ECF6 /* Debug */,
+				B26F0DA42637622200D3ECF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26F0D862637622000D3ECF6 /* Project object */;
+}

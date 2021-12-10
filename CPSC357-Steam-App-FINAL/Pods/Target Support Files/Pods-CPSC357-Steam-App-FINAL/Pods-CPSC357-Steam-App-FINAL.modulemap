@@ -1,0 +1,6 @@
+framework module Pods_CPSC357_Steam_App_FINAL {
+  umbrella header "Pods-CPSC357-Steam-App-FINAL-umbrella.h"
+
+  export *
+  module * { export * }
+}
